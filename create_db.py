@@ -10,7 +10,7 @@ cur = con.cursor()
 cur.execute("DROP TABLE IF EXISTS users")
 
 #Create users table  in db_web database
-sql ='''CREATE TABLE "DATABASE2" (
+sql ='''CREATE TABLE "DATABASE" (
 	"UID"	INTEGER PRIMARY KEY AUTOINCREMENT,
 	"MODEL"	TEXT,
 	"QTY"	TEXT,

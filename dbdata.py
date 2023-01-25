@@ -14,7 +14,7 @@ def create_record(input_data,schema_name):
     cur=con.cursor()
 
     json_datas = request.get_json()
-    create_func(json_datas)
+    #create_func(json_datas)
     print("--<<<<<<<<<<>>>>>>>>>>>>--",json_datas)
 
     model = request.json['model']

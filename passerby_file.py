@@ -17,7 +17,9 @@ def create_func(json_datas):
     data_list_2=[]
     for i in json_datas:
         data_list_1 = []
+        print("**************",data_list_1)
         for j in data_key:
+            print("*&*&*&*&*&*&",i,j)
             data_list_1.append(i[j])
         data_list_2.append(data_list_1)
     data_list_tuple=[]      
